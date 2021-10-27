@@ -1,0 +1,15 @@
+{
+  "config": {
+    "name": "Windows Agent",
+    "endpoint": "us.data.logs.insight.rapid7.com",
+    "region": "United States - 1",
+    "api-key": "84837d57-16d3-4434-b1d8-85c0e77d8ee9",
+    "state-file": "C:\\Program Files\\Rapid7\\Insight Agent\\components\\insight_agent\\common\\state.file",
+    "formatter" : "plain",
+    "windows-eventlog": {
+      "enabled": true,
+      "destination": "Test Workstation/Event Logs"
+      },
+     "logs": []
+  }
+}
